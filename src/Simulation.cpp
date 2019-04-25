@@ -10,6 +10,7 @@ public:
     const char *  what() {return "\nSniper has equipped the weapon but is not in position\n";};
 };
 
+
 // Constructor pentru Simulation
 Simulation::Simulation(): RoundNo(0)
 {
@@ -191,12 +192,10 @@ void Simulation::operator ++(int Dummy)
 
             if( ValidWalk( New.first, New.second ) )
             {
-
             //Agentul paraseste pozitia curenta
                 Table.M[AgentArray[i]->CurrentI][AgentArray[i]->CurrentJ] = '-';
                 AgentArray[i]->CurrentI = New.first;
                 AgentArray[i]->CurrentJ = New.second;
-
             //Agentul Ajunge in WEREHOUSE
                 if(Table.M[AgentArray[i]->CurrentI][AgentArray[i]->CurrentJ]  == 'W')
                 {
