@@ -18,8 +18,8 @@ class Armour
         int Type;
         int SpawnI, SpawnJ;
 };
-//Tipul 1 de armura
 
+//Tipul 1 de armura
 class Armour1: public Armour
 {
 public:
