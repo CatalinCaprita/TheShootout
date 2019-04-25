@@ -8,6 +8,7 @@
 #include <utility>
 #include <vector>
 using namespace std;
+
 ////Clasa Simulatiion, care gestioneaza desfasurarea unei runde
 ////Map Table - un obiect de tipul Map, care va descrie configuratia unei runde
 ////          - la un anumit moment din joc, pe Table apar caractere mari sau mici - tipul de Agent,
