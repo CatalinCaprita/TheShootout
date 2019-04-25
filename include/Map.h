@@ -2,7 +2,7 @@
 #define MAP_H
 #include <iostream>
 using namespace std;
-// Clasa care gestioneaza desfasurarea jocului poate manipula campurile matricei
+//Clasa care gestioneaza desfasurarea jocului poate manipula campurile matricei
 class Simulation;
 class Map
 {
