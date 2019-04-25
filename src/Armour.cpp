@@ -56,6 +56,7 @@ int Armour2::DamageMitigation(int DamageTaken)
     }
     }while (Answer != 1 || Answer != 0);
 }
+
 //Destructor pentru tipul 2
 Armour2::~Armour2()
 {
