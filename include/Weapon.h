@@ -21,6 +21,7 @@ protected:
     int Durability;
 
 };
+
 //Tipul BarrellGun, Specific pentru Tipul de agent Berserker
 //int CritChance - arma are un anumit procentaj pentru sansa de a da mai mult Damage
 class BarrellGun:public Weapon
