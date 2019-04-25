@@ -212,7 +212,7 @@ void Simulation::operator ++(int Dummy)
 
                 }
             //Daca Agentul nimereste pe o armura, o echipeaza
-            //Nou comment pentru gitHub
+
                 else
                 if( isdigit( Table.M[AgentArray[i]->CurrentI][AgentArray[i]->CurrentJ] ) )
                    AgentArray[i]->EquipArmour( Table.M[AgentArray[i]->CurrentI][AgentArray[i]->CurrentJ], New.first, New.second );
