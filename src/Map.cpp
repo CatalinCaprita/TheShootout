@@ -2,8 +2,8 @@
 #include <iostream>
 #include <exception>
 using namespace std;
-/*Clasa care gestioneaza o harta. Matrice patratica de 25x25 de caractere.
-*/
+//Clasa care gestioneaza o harta. Matrice patratica de 25x25 de caractere.
+//
 Map::Map()
 {
     try{
