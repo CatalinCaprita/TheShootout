@@ -2,7 +2,6 @@
 #include <iostream>
 #include <exception>
 using namespace std;
-
 Agent::Agent(int I=16,int J=16):CurrentI(I), CurrentJ(J), HasWeapon(false),HasArmour(false), HealthBar(10), Teleported(false)
 {
 }
