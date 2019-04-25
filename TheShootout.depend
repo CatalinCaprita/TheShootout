@@ -1,0 +1,60 @@
+# depslib dependency file v1.0
+1556176962 source:c:\users\catalin\desktop\poolab\theshootout\main.cpp
+	<iostream>
+	"Simulation.h"
+	<vector>
+	<utility>
+	<time.h>
+
+1556184290 source:c:\users\catalin\desktop\poolab\theshootout\src\map.cpp
+	"Map.h"
+	<iostream>
+	<exception>
+
+1556184290 c:\users\catalin\desktop\poolab\theshootout\include\map.h
+	<iostream>
+
+1556184937 source:c:\users\catalin\desktop\poolab\theshootout\src\agent.cpp
+	"Agent.h"
+	<iostream>
+	<exception>
+
+1556184770 c:\users\catalin\desktop\poolab\theshootout\include\agent.h
+	<string>
+	<iostream>
+	<exception>
+	"Armour.h"
+	"Weapon.h"
+	"Armour.h"
+
+1556184290 source:c:\users\catalin\desktop\poolab\theshootout\src\armour.cpp
+	"Armour.h"
+	<iostream>
+
+1556184290 c:\users\catalin\desktop\poolab\theshootout\include\armour.h
+	<iostream>
+	<utility>
+
+1556184290 c:\users\catalin\desktop\poolab\theshootout\include\weapon.h
+	<iostream>
+
+1556184290 source:c:\users\catalin\desktop\poolab\theshootout\src\weapon.cpp
+	"Weapon.h"
+	"Agent.h"
+	<iostream>
+
+1556184734 source:c:\users\catalin\desktop\poolab\theshootout\src\simulation.cpp
+	"Simulation.h"
+	"Agent.h"
+	<exception>
+	<string.h>
+
+1556184290 c:\users\catalin\desktop\poolab\theshootout\include\simulation.h
+	<iostream>
+	"Map.h"
+	"Agent.h"
+	"Armour.h"
+	"Weapon.h"
+	<utility>
+	<vector>
+
