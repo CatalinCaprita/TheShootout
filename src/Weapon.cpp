@@ -44,6 +44,7 @@ int BarrellGun::Hit(int RoundNo = 0)
     cout<<"The Gun Missed ! ";
     return 0;
 }
+
 //Constructor pentru Handgun
 HandGun::HandGun():Weapon(), LuckOfThePro(60)
 {
