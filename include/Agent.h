@@ -7,6 +7,7 @@
 #include "Weapon.h"
 #include "Armour.h"
 using namespace std;
+
 //Clasa care gestioneaza runda are acces la campurile unui agent
 class Simulation;
 //Exceptie pentru tipul de agent "Sniper". Aceasta este aruncata in momentul in care un agent
@@ -17,6 +18,7 @@ class PositionAquired: public exception
 public:
     const char *what(){return "Position aquired.Waiting";}
 };
+
 //Exceptie pentru cazul in care un agent ajunge din nou in WEREHOUSE, dar are deja arma
 class AlreadyArmed: public exception
 {
