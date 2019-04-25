@@ -18,7 +18,7 @@ int main()
         if( Stop == 0)
             break;
         Game1++;
-    }while (1);
+    }while(1);
 
     return 0;
 }
